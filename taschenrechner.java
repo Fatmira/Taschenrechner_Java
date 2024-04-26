@@ -9,7 +9,7 @@ public class Taschenrechner {
 		System.out.println("Taschenrechner");
 		System.out.println("Made by Fatmira");
 		System.out.println(" ");
-		System.out.println("Rechenarten: + | -");
+		System.out.println("Rechenarten: + | - | / | * ");
 		
 		System.out.print("Wähle eine Rechenart: ");
 		String user = scan.next();
@@ -23,11 +23,16 @@ public class Taschenrechner {
 		
 		int ErgebnisAdd = Zahl1 + Zahl2;
 		int ErgebnisSub = Zahl1 - Zahl2;
+		int ErgebnisDiv = Zahl1 / Zahl2;
+		int ErgebnisMul = Zahl1 * Zahl2;
+		
 		
 		switch(user) {
 		
 		case"+":System.out.println("Das Ergebnis ist: " + ErgebnisAdd);break;
 		case"-":System.out.println("Das Ergebnis ist: " + ErgebnisSub);break;
+		case"/":System.out.println("Das Ergebnis ist: " + ErgebnisDiv);break;
+		case"*":System.out.println("Das Ergebnis ist: " + ErgebnisMul);break;
 		default:System.out.println("Die rechenart existiert nicht.");break;
 		
 		}
