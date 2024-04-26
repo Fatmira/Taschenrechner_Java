@@ -16,15 +16,15 @@ public class Taschenrechner {
 		System.out.println(" ");
 
 		System.out.print("Zahl 1: ");
-		int Zahl1 = scan.nextInt();
+		float Zahl1 = scan.nextFloat();
 		
 		System.out.print("Zahl 2: ");
-		int Zahl2 = scan.nextInt();
+		float Zahl2 = scan.nextFloat();
 		
-		int ErgebnisAdd = Zahl1 + Zahl2;
-		int ErgebnisSub = Zahl1 - Zahl2;
-		int ErgebnisDiv = Zahl1 / Zahl2;
-		int ErgebnisMul = Zahl1 * Zahl2;
+		float ErgebnisAdd = Zahl1 + Zahl2;
+		float ErgebnisSub = Zahl1 - Zahl2;
+		float ErgebnisDiv = Zahl1 / Zahl2;
+		float ErgebnisMul = Zahl1 * Zahl2;
 		
 		
 		switch(user) {
